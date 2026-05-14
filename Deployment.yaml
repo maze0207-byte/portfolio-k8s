@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: project 
+  namespace: default
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: project 
+  template:
+    metadata:
+      labels:
+        app: project 
+    spec:
+      containers:
+      - name: project 
+        image: mazen2025/mazen-devops-portfolio:b978ad213549e0681818b97ac2dbd9fe0fbe71ba 
+        ports:
+        - containerPort: 3000
