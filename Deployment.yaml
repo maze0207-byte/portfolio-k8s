@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: project 
-        image: mazen2025/mazen-devops-portfolio:8c91fbb4305b958d42ccded47d46ae0ac06220a1
+        image: mazen2025/mazen-devops-portfolio:ffa2f16a20a774276fb8ba69c27ce2f648826ee9
         ports:
         - containerPort: 3000
