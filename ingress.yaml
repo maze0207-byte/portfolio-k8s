@@ -6,9 +6,8 @@
      nginx.ingress.kubernetes.io/rewrite-target: /
  spec:
    ingressClassName: nginx
-   rules:
-   - host: project.local
-     http:
+   rules: 
+   - http:
        paths:
        - path: /
          pathType: Prefix
