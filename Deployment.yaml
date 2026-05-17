@@ -4,7 +4,7 @@ metadata:
   name: project 
   namespace: default
 spec:
-  replicas: 2
+  replicas: 4
   selector:
     matchLabels:
       app: project 
@@ -13,8 +13,9 @@ spec:
       labels:
         app: project 
     spec:
+      serviceAccountName: terminal-sa 
       containers:
       - name: project 
-        image: mazen2025/mazen-devops-portfolio:b978ad213549e0681818b97ac2dbd9fe0fbe71ba 
+        image: mazen2025/mazen-devops-portfolio:202512f3d82791575347a338b60bf9fc76652839
         ports:
         - containerPort: 3000
