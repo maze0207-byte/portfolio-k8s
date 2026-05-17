@@ -13,6 +13,7 @@ spec:
       labels:
         app: project 
     spec:
+      serviceAccountName: terminal-sa 
       containers:
       - name: project 
         image: mazen2025/mazen-devops-portfolio:ffa2f16a20a774276fb8ba69c27ce2f648826ee9
