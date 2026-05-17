@@ -16,6 +16,6 @@ spec:
       serviceAccountName: terminal-sa 
       containers:
       - name: project 
-        image: mazen2025/mazen-devops-portfolio:202512f3d82791575347a338b60bf9fc76652839
+        image: mazen2025/mazen-devops-portfolio:2fe41af48b27cd7c42f0a396644145c8ed22b96b
         ports:
         - containerPort: 3000
