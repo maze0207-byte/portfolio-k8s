@@ -18,6 +18,6 @@ spec:
       - name: project-secret
       containers:
       - name: project 
-        image: mazen0202/mazen-devops-portfolio:4e30fe969bdd61aef4a55fc93a6e6d1ea9cc4bc9
+        image: mazen0202/mazen-devops-portfolio:798c931dee040efc40fdbb481e6e7ec671013d76
         ports:
         - containerPort: 3000
